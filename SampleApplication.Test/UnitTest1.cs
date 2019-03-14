@@ -26,8 +26,8 @@ namespace SampleApplication.Test
         [TestMethod]
         public void TestMethod3()
         {
-            int expectedValue = 7;
-            int actualValu = BusinessLayer.Add(3, 3);
+            int expectedValue = 12;
+            int actualValu = BusinessLayer.Add(3, 9);
             Assert.AreEqual(expectedValue, actualValu);
         }
     }
