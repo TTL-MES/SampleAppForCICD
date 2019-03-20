@@ -29,6 +29,7 @@ namespace SampleApplication.Test
             int expectedValue = 12;
             int actualValu = BusinessLayer.Add(6, 6);
             Assert.AreEqual(expectedValue, actualValu);
+
         }
     }
 }
